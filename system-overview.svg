@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="760" viewBox="0 0 1280 760" role="img" aria-labelledby="title desc">
+<title id="title">屋顶渗漏监测方案总览</title><desc id="desc">左侧展示覆盖层、防水膜、MX传感网络和结构楼板。右侧展示持续监测、证据辅助决策、EFVM复测验证，所有内容为概念架构。</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#07111d"/><stop offset="1" stop-color="#102a3a"/></linearGradient>
+  <linearGradient id="panel" x2="1" y2="1"><stop stop-color="#112638"/><stop offset="1" stop-color="#0c1c2c"/></linearGradient>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="4" orient="auto"><path d="M0 0 8 4 0 8" fill="none" stroke="#59e3c2" stroke-width="1.5"/></marker>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#8daabc" stroke-opacity=".045"/></pattern>
+</defs>
+<rect width="1280" height="760" rx="24" fill="url(#bg)"/><rect width="1280" height="760" rx="24" fill="url(#grid)"/>
+<g font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif">
+  <text x="56" y="62" fill="#59e3c2" font-size="13" letter-spacing="3">RECO7613 / INTERACTIVE CONCEPT</text>
+  <rect x="1082" y="39" width="142" height="31" rx="15" fill="#ff9d68" fill-opacity=".09" stroke="#ff9d68" stroke-opacity=".3"/><text x="1153" y="60" text-anchor="middle" fill="#ffb48c" font-size="12">概念架构 · 模拟</text>
+  <text x="56" y="116" fill="#edf5f5" font-size="35" font-weight="700">让屋顶渗漏，走向可验证的闭环</text>
+  <text x="57" y="151" fill="#8ca3b5" font-size="17">看见隐蔽风险 · 找到工程依据 · 留下维修与复测证据</text>
+  <rect x="48" y="187" width="652" height="486" rx="18" fill="url(#panel)" stroke="#2a4357"/>
+  <text x="76" y="226" fill="#8ca3b5" font-size="13" letter-spacing="2">01 / 屋顶构造与异常分区</text>
+  <g stroke-linejoin="round">
+    <path d="m109 492 283-96 215 88-281 101z" fill="#233a4d" stroke="#456074"/><path d="m109 492 217 93v34L109 526z" fill="#182a3b" stroke="#456074"/><path d="m326 585 281-101v34L326 619z" fill="#1d3243" stroke="#456074"/>
+    <path d="m109 439 283-96 215 88-281 101z" fill="#2d776e" fill-opacity=".43" stroke="#59e3c2" stroke-opacity=".75"/>
+    <path d="m156 456 283-97m-233 119 281-98m-229 120 281-101m-298-32 214 88m-159-108 214 88m-158-107 214 88" stroke="#59e3c2" stroke-width="1.2" stroke-opacity=".5"/>
+    <path d="m109 386 283-96 215 88-281 101z" fill="#447b86" fill-opacity=".53" stroke="#7db9c4"/>
+    <path d="m109 302 283-96 215 88-281 101z" fill="#637782" fill-opacity=".45" stroke="#a2bac3"/>
+    <path d="m199 271 219 91m-125-124 216 90m-315 11 281-96m-206 128 280-97" stroke="#9cb0bb" stroke-opacity=".4"/>
+    <path d="m460 290 87-30 59 25-87 32z" fill="#ff9d68" fill-opacity=".18" stroke="#ff9d68" stroke-width="2"/>
+  </g>
+  <path d="M514 282v107" stroke="#65b5ff" stroke-width="4" stroke-dasharray="7 8"/><circle cx="514" cy="388" r="14" fill="#ff9d68" fill-opacity=".15" stroke="#ff9d68" stroke-width="2"/><circle cx="514" cy="440" r="19" fill="#59e3c2" fill-opacity=".06" stroke="#59e3c2" stroke-dasharray="3 4"/>
+  <rect x="537" y="254" width="114" height="30" rx="6" fill="#3c2928" stroke="#ff9d68" stroke-opacity=".5"/><text x="594" y="274" text-anchor="middle" fill="#ffd6bd" font-size="12">R-03 · 示例异常</text>
+  <g fill="#bdd0d9" font-size="13">
+    <path d="M83 302h-12v-18" fill="none" stroke="#8ca3b5"/><text x="78" y="276">覆盖层 / 铺装</text>
+    <path d="M112 388H77" stroke="#8ca3b5"/><text x="77" y="375">防水膜</text>
+    <path d="M109 439H77" stroke="#59e3c2"/><text x="77" y="427" fill="#59e3c2">MX 传感网络</text>
+    <text x="77" y="552">结构楼板</text>
+  </g>
+  <rect x="76" y="631" width="595" height="1" fill="#294052"/>
+  <text x="77" y="656" fill="#8ca3b5" font-size="12">构造与检测原理为简化示意；实际设计取决于兼容性与现场条件。</text>
+  <path d="M704 428h34" fill="none" stroke="#59e3c2" stroke-opacity=".7" marker-end="url(#arrow)"/>
+  <g>
+    <rect x="756" y="187" width="476" height="136" rx="14" fill="url(#panel)" stroke="#59e3c2" stroke-opacity=".35"/>
+    <circle cx="790" cy="223" r="5" fill="#59e3c2"/><text x="808" y="229" fill="#59e3c2" font-size="12" letter-spacing="2">MONITOR / 持续监测</text>
+    <text x="780" y="265" fill="#edf5f5" font-size="23" font-weight="700">MX：把异常关联到分区</text>
+    <text x="780" y="295" fill="#8ca3b5" font-size="15">信号变化 → 屋顶编号 → 对应构造与版本</text>
+    <path d="M993 327v21" stroke="#59e3c2" stroke-opacity=".5" marker-end="url(#arrow)"/>
+    <rect x="756" y="362" width="476" height="143" rx="14" fill="url(#panel)" stroke="#65b5ff" stroke-opacity=".35"/>
+    <circle cx="790" cy="399" r="5" fill="#65b5ff"/><text x="808" y="405" fill="#65b5ff" font-size="12" letter-spacing="2">DECIDE / 辅助决策</text>
+    <text x="780" y="442" fill="#edf5f5" font-size="23" font-weight="700">AI 汇总证据，工程师审核</text>
+    <text x="780" y="473" fill="#8ca3b5" font-size="15">图纸 + 产品要求 + 维修先例 → 带来源建议</text>
+    <path d="M993 509v21" stroke="#59e3c2" stroke-opacity=".5" marker-end="url(#arrow)"/>
+    <rect x="756" y="544" width="476" height="129" rx="14" fill="url(#panel)" stroke="#73e2a0" stroke-opacity=".35"/>
+    <circle cx="790" cy="579" r="5" fill="#73e2a0"/><text x="808" y="585" fill="#73e2a0" font-size="12" letter-spacing="2">VERIFY / 复测验证</text>
+    <text x="780" y="622" fill="#edf5f5" font-size="23" font-weight="700">EFVM：复测与证据归档</text>
+    <text x="780" y="650" fill="#8ca3b5" font-size="15">维修记录 + 审批 + 复测 → 可追溯闭环</text>
+  </g>
+  <text x="56" y="720" fill="#718a9d" font-size="13">本网页为课程方案的交互原型，未连接真实设备、文档库或 AI 模型。图中描述的是拟议架构。</text>
+</g>
+</svg>

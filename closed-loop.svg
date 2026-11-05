@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="730" viewBox="0 0 1280 730" role="img" aria-labelledby="title desc">
+<title id="title">R-03 从告警到复测的六步闭环</title><desc id="desc">模拟流程从告警、定位、证据汇总、工程师审批、维修到EFVM复测归档，以同一分区编号关联全过程。</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#07111d"/><stop offset="1" stop-color="#102a3a"/></linearGradient>
+  <linearGradient id="card" x2="1" y2="1"><stop stop-color="#112638"/><stop offset="1" stop-color="#0b1c2b"/></linearGradient>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="4" orient="auto"><path d="M0 0 8 4 0 8" fill="none" stroke="#59e3c2" stroke-width="1.6"/></marker>
+</defs>
+<rect width="1280" height="730" rx="24" fill="url(#bg)"/>
+<g font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif">
+  <text x="56" y="59" fill="#59e3c2" font-size="13" letter-spacing="3">R-03 / CONNECTED WORKFLOW</text>
+  <text x="56" y="111" fill="#edf5f5" font-size="34" font-weight="700">告警之后，每一步都有上下文</text>
+  <text x="57" y="145" fill="#8ca3b5" font-size="17">同一个屋顶分区编号，连接工程证据、责任决策与复测结果</text>
+  <g stroke="#29465b" fill="url(#card)">
+    <rect x="56" y="187" width="356" height="177" rx="14" stroke="#ff9d68" stroke-opacity=".45"/>
+    <rect x="462" y="187" width="356" height="177" rx="14"/>
+    <rect x="868" y="187" width="356" height="177" rx="14"/>
+    <rect x="868" y="421" width="356" height="177" rx="14" stroke="#65b5ff" stroke-opacity=".45"/>
+    <rect x="462" y="421" width="356" height="177" rx="14"/>
+    <rect x="56" y="421" width="356" height="177" rx="14" stroke="#73e2a0" stroke-opacity=".45"/>
+  </g>
+  <g fill="none" stroke="#59e3c2" stroke-opacity=".65" stroke-width="1.5" marker-end="url(#arrow)">
+    <path d="M422 275h28"/><path d="M828 275h28"/><path d="M1046 374v34"/><path d="M858 509h-28"/><path d="M452 509h-28"/>
+  </g>
+  <g font-size="14" fill="#59e3c2" font-weight="700">
+    <text x="80" y="224" fill="#ff9d68">01 / 告警</text><text x="486" y="224">02 / 定位</text><text x="892" y="224">03 / 证据</text>
+    <text x="892" y="458" fill="#65b5ff">04 / 审批</text><text x="486" y="458">05 / 维修</text><text x="80" y="458" fill="#73e2a0">06 / 复测归档</text>
+  </g>
+  <g fill="#edf5f5" font-size="23" font-weight="700">
+    <text x="80" y="265">识别信号变化</text><text x="486" y="265">找到分区与图纸</text><text x="892" y="265">汇总带来源的建议</text>
+    <text x="892" y="499">工程师作出决定</text><text x="486" y="499">按批准方法执行</text><text x="80" y="499">验证并保留证据</text>
+  </g>
+  <g fill="#8ca3b5" font-size="15">
+    <text x="80" y="297">R-03 / MX-17 出现异常</text><text x="80" y="322">模拟告警等待工程师处理</text>
+    <text x="486" y="297">批准详图 A-531 · Rev C</text><text x="486" y="322">保持位置、构造与版本一致</text>
+    <text x="892" y="297">详图 + 材料手册 + 维修先例</text><text x="892" y="322">AI 环节在此仅为预设演示</text>
+    <text x="892" y="531">核对来源、兼容性与现场条件</text><text x="892" y="556">模拟签发维修工单 RW-019</text>
+    <text x="486" y="531">局部兼容防水膜修复示例</text><text x="486" y="556">维修范围与证据关联到 R-03</text>
+    <text x="80" y="531">EFVM 复测 + 审批 + 维修记录</text><text x="80" y="556">形成同一分区的闭环记录</text>
+  </g>
+  <rect x="56" y="629" width="1168" height="51" rx="10" fill="#59e3c2" fill-opacity=".055" stroke="#59e3c2" stroke-opacity=".18"/>
+  <text x="640" y="661" text-anchor="middle" fill="#b6d7d4" font-size="16">方案逻辑：持续监测 → 证据辅助决策 → 人工审批 → 现场维修 → 复测验证 → 持续监测</text>
+  <text x="57" y="710" fill="#718a9d" font-size="12">所有编号、图纸、建议、审批与复测为模拟示例；当前网页不发送真实工单，也不保存正式工程档案。</text>
+</g>
+</svg>
